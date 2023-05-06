@@ -9,3 +9,6 @@ body{
     line-height: 1.5;
     min-height: 100vh;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
