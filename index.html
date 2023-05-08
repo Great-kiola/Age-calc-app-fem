@@ -1,64 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Age calculator app</title>
-</head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="inputs">
+          <div class="daysBox box">
+            <label for="days">DAY</label>
+            <input
+              type="number"
+              name="days"
+              id="days"
+              placeholder="DD"
+              min="2"
+              max="2"
+              oninput="if(this.value.length > this.max) this.value = this.value.slice(0,this.max)"
+              required
+            />
+          </div>
 
-<body>
+          <div class="monthsBox box">
+            <label for="month">MONTH</label>
+            <input
+              type="number"
+              name="month"
+              id="month"
+              placeholder="MM"
+              min="1"
+              max="2"
+              oninput="if(this.value.length > this.max) this.value = this.value.slice(0,this.max)"
+              required
+            />
+          </div>
 
-  <main>
-    <div class="container">
-
-      <div class="inputs">
-
-        <div class="daysBox box">
-          <label for="days">DAY</label>
-          <input type="text" name="days" id="days" placeholder="DD">
+          <div class="yearsBox box">
+            <label for="year">YEARS</label>
+            <input
+              type="number"
+              name="year"
+              id="year"
+              placeholder="YYYY"
+              min="4"
+              max="4"
+              oninput="if(this.value.length > this.max) this.value = this.value.slice(0,this.max)"
+              required
+            />
+          </div>
         </div>
 
-        <div class="monthsBox box">
-          <label for="month">MONTH</label>
-          <input type="text" name="month" id="month" placeholder="MM" min="1" max="2">
-        </div>
+        <div class="label"></div>
 
-        <div class="yearsBox box">
-          <label for="year">YEARS</label>
-          <input type="text" name="year" id="year" placeholder="YYYY">
+        <div class="results">
+          <h1><span class="yearResult"> -- </span> years</h1>
+          <h1><span class="monthResult"> -- </span> months</h1>
+          <h1><span class="daysResult"> -- </span> days</h1>
         </div>
-
       </div>
+    </main>
 
-      <div class="label"></div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >
+      Coded by
+      <a href="https://www.frontendmentor.io/profile/Great-kiola"
+        >Olabode Kilaso</a
+      >
+    </div>
 
-
-      <div class="results">
-        <h1 > <span> -- </span> years </h1>
-        <h1 > <span> -- </span> months </h1>
-        <h1 > <span> -- </span> days </h1>
-      </div>
-
-
-
-    </div >
-
-  </main>
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-    Coded by <a href="https://www.frontendmentor.io/profile/Great-kiola">Olabode Kilaso</a>
-
-    
-  </div>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

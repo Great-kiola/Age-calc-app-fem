@@ -42,10 +42,18 @@ label{
 input{
     width: 120px;
     display: flex;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 800;
     border: 1px solid var(--Lightgrey);
+    cursor: pointer;
+}
+
+input::-webkit-inner-spin-button , 
+input ::-webkit-outer-spin-button  {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 input:focus{
