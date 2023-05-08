@@ -8,6 +8,20 @@
 body{
     line-height: 1.5;
     min-height: 100vh;
+    background-color: var(--Offwhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    background-color: var(--White);
+    width: 700px;
+    height: 500px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 40px;
+    border-bottom-right-radius: 130px;
 }
 
 
