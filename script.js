@@ -10,7 +10,7 @@ let yearInput = document.getElementById('year');
 
 const form = document.querySelector('form');
 
-button.addEventListener('submit', handleSubmit);
+button.addEventListener('click', handleSubmit);
 
 const date = new Date();
 let day = date.getDate();
@@ -33,12 +33,12 @@ function validate (){
             monthInput.style.borderColor = "red";
             monthInput.parentElement.querySelector("small").innerText = "must be a valid month";
             validator = false;
-        } else if (daysInput.value){
+        } else if (daysInput.value > 31){
             daysInput.style.borderColor = "red";
             daysInput.parentElement.querySelector("small").innerText = "must be a valid day";
             validator = false;
         } else {
-            i.style.borderColor = "red";
+            i.style.borderColor = "black";
             parent.querySelector("small").innerText = "";
             validator = true;
         }
