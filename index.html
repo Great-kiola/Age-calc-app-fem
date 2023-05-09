@@ -18,51 +18,58 @@
   <body>
     <main>
       <div class="container">
-        <div class="inputs">
-          <div class="daysBox box">
-            <label for="days">DAY</label>
-            <input
-              type="number"
-              name="days"
-              id="days"
-              placeholder="DD"
-              min="2"
-              max="2"
-              oninput="if(this.value.length > this.max) this.value = this.value.slice(0,this.max)"
-              required
-            />
-          </div>
 
-          <div class="monthsBox box">
-            <label for="month">MONTH</label>
-            <input
-              type="number"
-              name="month"
-              id="month"
-              placeholder="MM"
-              min="1"
-              max="2"
-              oninput="if(this.value.length > this.max) this.value = this.value.slice(0,this.max)"
-              required
-            />
-          </div>
+        <form>
+          <div class="inputs">
 
-          <div class="yearsBox box">
-            <label for="year">YEARS</label>
-            <input
-              type="number"
-              name="year"
-              id="year"
-              placeholder="YYYY"
-              min="4"
-              max="4"
-              oninput="if(this.value.length > this.max) this.value = this.value.slice(0,this.max)"
-              required
-            />
-          </div>
-        </div>
 
-        <div class="label"></div>
+              <div class="daysBox box">
+                <label for="days">DAY</label>
+                <input
+                  type="number"
+                  name="days"
+                  id="days"
+                  placeholder="DD"
+                  min="2"
+                  max="2"
+                  oninput="if(this.value.length > this.max) this.value = this.value.slice(0,this.max)"
+                  required
+                />
+              </div>
+    
+              <div class="monthsBox box">
+                <label for="month">MONTH</label>
+                <input
+                  type="number"
+                  name="month"
+                  id="month"
+                  placeholder="MM"
+                  min="1"
+                  max="2"
+                  oninput="if(this.value.length > this.max) this.value = this.value.slice(0,this.max)"
+                  required
+                />
+              </div>
+    
+              <div class="yearsBox box">
+                <label for="year">YEARS</label>
+                <input
+                  type="number"
+                  name="year"
+                  id="year"
+                  placeholder="YYYY"
+                  min="4"
+                  max="4"
+                  oninput="if(this.value.length > this.max) this.value = this.value.slice(0,this.max)"
+                  required
+                />
+              </div>
+          
+            
+          </div>
+        </form>
+
+        <button class="label"> <img src="./assets/images/icon-arrow.svg" alt=""> </button>
 
         <div class="results">
           <h1><span class="yearResult"> -- </span> years</h1>

@@ -73,7 +73,7 @@ input:focus{
     cursor: pointer;
 }
 
-.label::before{
+/* .label::before{
     content: url(./assets/images/icon-arrow.svg);
     position: absolute;
     padding: 15px;
@@ -83,7 +83,7 @@ input:focus{
     height: 45px;
     border-radius: 50%;
     background-color: var(--Purple);
-}
+} */
 
 .box{
     display: flex;
@@ -102,7 +102,9 @@ input:focus{
     color: var(--Purple);
 }
 
-
+form {
+    display: flex;
+}
 
 
 
