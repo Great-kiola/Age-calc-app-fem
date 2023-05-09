@@ -32,7 +32,7 @@ Users should be able to:
 
 ## Author
 
-- GH - [Great-kiola](https://github.com/Great-kiola)
+- GH - [Great-kiola](https://github.com/Great-kiolaMa)
 - Frontend Mentor - [@Great-kiola](https://www.frontendmentor.io/profile/Great-kiola)
 
 ## Acknowledgments
