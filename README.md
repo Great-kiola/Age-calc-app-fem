@@ -6,7 +6,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="./assets/images/Screenshot.png" alt="Completed design screenshot" width=900>
 
 
 ### The challenge
