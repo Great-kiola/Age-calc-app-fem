@@ -24,10 +24,16 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: See the age numbers animate to their final number when the form is submitted
 
+
+### Links
+
+- Solution URL: [Solution URL](https://your-solution-url.com)
+- Live Site URL: [Live site URL](https://your-live-site-url.com)
+
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GH - [Great-kiola](https://github.com/Great-kiola)
+- Frontend Mentor - [@Great-kiola](https://www.frontendmentor.io/profile/Great-kiola)
 
 ## Acknowledgments
 
