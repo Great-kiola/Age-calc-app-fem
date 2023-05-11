@@ -83,16 +83,3 @@ function handleSubmit(e){
 
 
 
-
-
-// daysInput.addEventListener('input', () => {
-//     dayResult.innerText = daysInput.value;
-// });
-
-// monthInput.addEventListener('input', () => {
-//     monthsResult.innerText = monthInput.value;
-// });
-
-// yearInput.addEventListener('input', () => {
-//     yearResult.innerText = yearInput.value;
-// });
