@@ -10,7 +10,7 @@ let yearInput = document.getElementById('year');
 
 const form = document.querySelector('form');
 
-button.addEventListener('click', handleSubmit);
+
 
 const date = new Date();
 let day = date.getDate();
@@ -48,8 +48,9 @@ function validate (){
     return validator;
 }
 
-function handleSubmit(e){
+button.addEventListener('click', (e) => {
     e.preventDefault();
+
     if (validate()){
         if (daysInput.value > day){
             day = day + months[month - 1];
@@ -71,7 +72,10 @@ function handleSubmit(e){
 
 
     }
-}
+
+});
+
+
 
 
 
