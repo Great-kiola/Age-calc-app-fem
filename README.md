@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q/hub)
+- Live Site URL: [Live site URL](https://great-kiola.github.io/Age-calc-app-fem/)
 
 ## Author
 
