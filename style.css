@@ -85,6 +85,12 @@ input:focus{
     background-color: var(--Purple);
 }
 
+small{
+    color: red;
+    margin-top: 8px;
+    font-size: .7rem;
+}
+
 .box{
     display: flex;
     flex-direction: column;

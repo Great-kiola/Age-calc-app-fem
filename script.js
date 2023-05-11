@@ -24,6 +24,7 @@ function validate (){
     
     let validator = true;
     inputs.forEach((i) => {
+
         const parent = i.parentElement;
         if (!i.value){
             i.style.borderColor = "red";
@@ -31,11 +32,11 @@ function validate (){
             validator = false;
         } else if (monthInput.value > 12){
             monthInput.style.borderColor = "red";
-            monthInput.parentElement.querySelector("small").innerText = "must be a valid month";
+            monthInput.parent.querySelector("small").innerText = "must be a valid month";
             validator = false;
         } else if (daysInput.value > 31){
             daysInput.style.borderColor = "red";
-            daysInput.parentElement.querySelector("small").innerText = "must be a valid day";
+            daysInput.parent.querySelector("small").innerText = "must be a valid day";
             validator = false;
         } else {
             i.style.borderColor = "black";
@@ -50,7 +51,7 @@ function validate (){
 function handleSubmit(e){
     e.preventDefault();
     if (validate()){
-        if (daysInput.value> day){
+        if (daysInput.value > day){
             day = day + months[month - 1];
             month = month - 1;
         }
